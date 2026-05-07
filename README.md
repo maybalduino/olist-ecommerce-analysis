@@ -33,5 +33,5 @@ Complete analysis of the Brazilian's biggest marketplace covering revenue, satis
 ## :bar_chart:Highlights
 
 ## 👩🏽‍💻 Author
-| Mayara Balduino |  linkedin.com/in/mayara-balduino GitHub.com/maybalduino | 
+| Mayara Balduino | [LinkedIn ](linkedin.com/in/mayara-balduino) -  [Github ](GitHub.com/maybalduino) | 
 |---|---|
