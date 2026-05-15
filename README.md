@@ -1,37 +1,84 @@
-# 🛒 Olist E-Commerce Analysis
+# 📦 Week 01 — Revenue & Seasonality
 
-## 🧩 About the Project
-Complete analysis of the Brazilian's biggest marketplace covering revenue, satisfaction, logistics, client's retention and executive dashboard.
+## 🧩 Business Problem
 
-**Analized Period:** 2017-2018
-**Base:**+100k orders delivered
+Olist needs an executive sales report for 2017–2018
+to guide commercial efforts and seasonal campaigns.
+As the analyst in charge, the goal is to answer:
+**how much was sold, when, and how did it evolve
+month over month?**
 
-##  🛠️ Stack
+**Audience:** Commercial team and leadership
+**Decision supported:** Where to focus efforts
+throughout the year
 
- - PostgreSQL 
- - Python
- - Pandas
- - Matplotlib
- - Seaborn
- - Plotly
- - Power BI
- - Streamlit
+---
 
-##  📁 Structure
-| Week | Analysis | Techniques |
+## 🛠️ Tools & Libraries
+
+| Tool | Type | Purpose |
 |---|---|---|
-| 01 | Revenue and Seasonality | CTE, LAG, RANK |
-| 02 | Categories and Satisfaction  | Multiple JOIN, PERCENTILE |
-| 03 | Logistics and Delivery | DATE_PART, Window Functions |
-| 04 | Cohort and Retention | Cohort Analysis, LTV, Plotly |
-| 05 | Executive Dashboard | POWER BI, DAX, Star Schema |
-| 06 | Web Analytics App | Streamline, interactive Plotly |
+| PostgreSQL | Database | Where the data lives |
+| DBeaver | App | Write and test queries |
+| SQLAlchemy | Python library | Bridge between Python and PostgreSQL |
+| Pandas | Python library | Load and manipulate data |
+| Matplotlib | Python library | Create charts |
+| dataframe_image | Python library | Export tables as PNG |
 
-## :rocket: Live Demo
-:point_right: [Olist Analytics App] (link streamlit)
+---
 
-## :bar_chart:Highlights
+## 📊 What the Data Reveals
 
-## 👩🏽‍💻 Author
-| Mayara Balduino | [LinkedIn ](linkedin.com/in/mayara-balduino) -  [Github ](GitHub.com/maybalduino) | 
+**Revenue Overview**
+> Out of ___ total orders, ___% were successfully delivered,
+> generating R$ ___ in revenue with an average ticket of R$ ___.
+
+**Monthly Trends**
+> Average monthly growth was ___%.
+> The best month was ___ with R$ ___,
+> representing ___% above the period average.
+
+**Volume vs Revenue**
+> High-volume months are not necessarily the highest-revenue months.
+> ___ and ___ combine high volume + high ticket —
+> the best overall return periods for the business.
+
+---
+
+## 📈 Visualizations
+
+![Monthly Revenue](outputs/receita_mensal.png)
+![Monthly Variation](outputs/variacao_mensal.png)
+
+---
+
+## 📁 Project Structure
+
+| Folder | Content |
 |---|---|
+| queries/ | Commented SQL scripts in execution order |
+| notebooks/ | Full analysis with code, results and insights |
+| outputs/ | Charts and tables exported as PNG |
+
+**Files used this week:**
+- olist_orders_dataset.csv
+- olist_order_items_dataset.csv
+
+---
+
+## ▶️ How to Reproduce
+
+1. Download dataset: [Kaggle — Olist](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+2. Set up PostgreSQL and import CSVs — see [ONBOARDING.md](../ONBOARDING.md)
+3. Run queries in `/queries` in numerical order
+4. Run notebook in `/notebooks`
+
+---
+
+## 👩‍💻 Author
+
+**Mayara Balduino**
+Data Analyst · AI Enthusiast · Computer Engineer · Open to remote opportunities
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](LinkedIn.com/in/mayara-balduino)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/maybalduino)
