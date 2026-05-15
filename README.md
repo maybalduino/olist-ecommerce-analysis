@@ -63,7 +63,7 @@ Full setup instructions available in
 
 ## 👩‍💻 Author
 
-**May Balduino**
+**Mayara Balduino**
 Data Analyst · AI Enthusiast· Computer Engineer 
 Fluent in English · Open to remote opportunities
 
