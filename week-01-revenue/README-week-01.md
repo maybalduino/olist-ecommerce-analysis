@@ -30,8 +30,9 @@ throughout the year
 ## 📊 What the Data Reveals
 
 **Revenue Overview**
-> Out of ___ total orders, ___% were successfully delivered,
-> generating R$ ___ in revenue with an average ticket of R$ ___.
+> Out of 99441 total orders, 97.02%% were successfully delivered,
+> generating R$ 15419773.75 in revenue with an AOV of R$ 159.83.
+> The 625 canceled orders represent 0.63% of the transaction volume.
 
 **Monthly Trends**
 > Average monthly growth was ___%.
